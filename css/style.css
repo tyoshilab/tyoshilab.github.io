@@ -351,6 +351,52 @@ li {
   text-align: center;
 }
 
+/*--------------------------------
+ Cyclistic Analysis Final Thumbnail Button
+---------------------------------*/
+.cyclistic-thumbnail-link {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s, transform 0.3s;
+  border: none;
+  background: #fff;
+  position: relative;
+  width: 33vw;
+  max-width: 400px;
+  height: 18vw;
+  max-height: 220px;
+}
+.cyclistic-thumbnail-link:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  transform: translateY(-2px) scale(1.03);
+}
+.cyclistic-thumbnail-iframe {
+  pointer-events: none;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+.cyclistic-thumbnail-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.5em 0;
+  text-align: center;
+  letter-spacing: 0.05em;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  pointer-events: none;
+}
+
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
